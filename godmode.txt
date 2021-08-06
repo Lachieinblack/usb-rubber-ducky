@@ -1,0 +1,7 @@
+REM this ducky script make a folder that have all administration tools aka GODMOE
+REM NOTE this will only work if you in the desktop not the desktop folder in file explorer
+DELAY 1000
+CTRL SHIFT n
+DELAY 500
+STRING GodMode. {ED7BA470-8E54-465E-825C-99712043E01C}
+ENTER
