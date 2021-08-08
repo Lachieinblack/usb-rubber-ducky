@@ -1,0 +1,19 @@
+REM this ducky Script let the ducky use and connect to devices(windows, mac os and linux)
+REM for this to work the target computer must remote actsitd turn on
+REM PuTTY must be install
+DELAY 1000
+GUI r
+STRING putty
+ENTER
+DELAY 500
+REM you will also need to know the ip address of the targeted computer
+STRING 127.0.0.1
+ENTER
+DELAY 500
+REM must know the computer username and password
+STRING username
+ENTER
+DELAY 500
+STRING password
+ENTER
+REM feel free to edit out the password, username and ip address real ones
